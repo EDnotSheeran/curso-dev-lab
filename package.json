@@ -1,0 +1,29 @@
+{
+  "name": "curso-dev-lab",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=QyK63wEKnvA&list=PLz_YTBuxtxt6_Zf1h-qzNsvVt46H8ziKh&index=2&ab_channel=WaldemarNeto-DevLab",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist",
+    "dev": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.14.41",
+    "@types/prettier": "^2.2.3",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  }
+}
